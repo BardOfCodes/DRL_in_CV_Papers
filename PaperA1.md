@@ -14,8 +14,10 @@ The problem has been modeled as a Markov Decision Process. Formally, the MDP has
 * Actions
 The set of actions A is composed of eight transformations that can be applied to the box and one action to terminate the search process. The set of actions are as follows:
 <center><img src="img/A1-2.png" alt="Actions" style=""></center>
+
 * State Space
 The state representation is a tuple (o, h), where o is a feature vector of the observed region, and h is a vector with the history of taken actions.
+
 * Rewards
 Let b be the box of an observable region, and g the ground truth box for a target object. The reward function $R_{a}(s,s_{0})$ is granted to the agent when it chooses the action a to move from state s to $s_0$. Each state s has an associated box b that contains the attended region. Then, the reward is as follows:
 <center><img src="img/A1-3a.png" alt="Rewards" style=""></center>
