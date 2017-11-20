@@ -9,7 +9,7 @@ The aim is to localize objects in scenes, a.k.a Object Detection. The key idea i
 #### Proposed Model Outcome
 This is he proposed model where th actions involve non-overlapping actions in first case, and overlapping actions in the second. 
 <center><img src="img/A2-1.png" alt="Overview" style=""></center>
-<center><img src="img/A1-2.png" alt="Actions" style=""></center>
+<center><img src="img/A2-2.png" alt="Actions" style=""></center>
 
 #### RL Components
 The problem has been modeled as a Markov Decision Process. Formally, the MDP has a set of actions A, a set of states S, and a reward function R. 
