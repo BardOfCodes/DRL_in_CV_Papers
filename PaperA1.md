@@ -12,6 +12,7 @@ The aim is to localize objects in scenes, a.k.a Object Detection. To do so, an a
 #### RL Components
 The problem has been modeled as a Markov Decision Process. Formally, the MDP has a set of actions A, a set of states S, and a reward function R. The set of actions A is composed of eight transformations that can be applied to the box and one action to terminate the search process.
 <center><img src="img/A1-2.png" alt="Actions" style=""></center>
+
 #### Why use Reinforcement Learing here?
 It is shown that agents guided by the proposed model are able to localize a single instance of an object after analyzing only between 11 and 25 regions in an image, and obtain the best detection results among systems that do not use object proposals for object localization.
 
