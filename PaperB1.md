@@ -23,7 +23,7 @@ The state of MDP is the concatenation of two components: the presentation of cur
 The reward function R(s, a) provides a feedback to the agent when it performs the action a at the current state s, which awards the agent for actions that will bring about the improvement of motion localization accuracy while gives the punishment for actions that leads to the decline of the accuracy. The quality of motion localization is evaluated via the simple yet indicative measurement, Intersection over Union (IoU) between current attended temporal window and the groundtruth.
 <center><img src="img/B1-2a.png" alt="Rewards" style=""></center>
 The trigger has a different reward scheme because it leads to a terminal state that does not change the box, and thus, the differential of IoU will always be zero for this action. The reward for the trigger is a thresholding function of IoU as follows:
-<center><img src="img/A1-2b.png" alt="Rewards" style=""></center>
+<center><img src="img/B1-2b.png" alt="Rewards" style=""></center>
 
 #### Regressor Network
 Inspired by Fast R-CNN, where a regression network is incorporated to revise the position deviation between the predicted result and the groundtruth, we also introduce a regression model to refine the motion proposals. The regression channel accepts 4096-dimension feature vector as input and gives out two coordinate offsets on both starting and end moment. Unlike spatial bounding box regression, in which coordinate scaling is needed due to various camera-projection perspectives, we directly utilize original temporal coordinate (i.e. frame
