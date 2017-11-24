@@ -1,7 +1,11 @@
-#### Paper C1
-## Paper Title: Action-Decision Networks for Visual Tracking with Deep Reinforcement Learning.
-### Authors: Yoo, Sangdoo Yun1 Jongwon Choi1 Youngjoon, Kimin Yun, and Jin Young Choi
-### Conference: CVPR 2017
+---
+id: C1
+title: Action-Decision Networks for Visual Tracking with Deep Reinforcement Learning.
+category: Visual Tracking
+author: Yoo, Sangdoo Yun1 Jongwon Choi1 Youngjoon, Kimin Yun, and Jin Young Choi
+conference: CVPR 2017
+link: https://www.researchgate.net/publication/319164402_Action-Decision_Networks_for_Visual_Tracking_with_Deep_Reinforcement_Learning
+---
 
 #### Problem Statement
 This paper proposes a novel tracker which is controlled by sequentially pursuing actions learned by deep reinforcement learning. In contrast to the existing trackers using deep networks, the proposed tracker is designed to achieve a light computation as well as satisfactory tracking accuracy in both location and scale. The deep network to control actions is pre-trained using various training sequences and fine-tuned during tracking for online adaptation to target and background changes. Through evaluation of the OTB dataset, the proposed tracker is validated to achieve a competitive performance that is three times faster than state-of-the-art, deep network–based trackers.

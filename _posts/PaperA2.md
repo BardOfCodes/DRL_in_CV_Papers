@@ -1,7 +1,11 @@
-#### Paper A2
-## Paper Title: Hierarchical Object Detection with Deep Reinforcement Learning.
-### Authors: Bellver, Miriam, et al
-### Conference: NIPS 2016
+---
+id: A2
+title: Hierarchical Object Detection with Deep Reinforcement Learning.
+category: Object Detection
+author: Bellver, Miriam, et al
+conference: NIPS 2016
+link: https://arxiv.org/abs/1611.03718
+---
 
 #### Problem Statement
 The aim is to localize objects in scenes, a.k.a Object Detection. The key idea is to focus on those parts of the image that contain richer information and zoom on them. A RL agent is trained such that, given an image window, is capable of deciding where to focus the attention among five different predefined region candidates (smaller windows). The agent's performance is evaluated on the Pascal VOC 2007 dataset. 

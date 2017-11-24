@@ -1,7 +1,11 @@
-#### Paper B1
-## Paper Title: A Self-Adaptive Proposal Model for Temporal Action Detection based on Reinforcement Learning.
-### Authors: Jingjia Huang, Nannan Li, Tao Zhang, Ge Li
-### arxiv.org
+---
+id: B1
+title: A Self-Adaptive Proposal Model for Temporal Action Detection based on Reinforcement Learning.
+category: Action Detection
+author: Jingjia Huang, Nannan Li, Tao Zhang, Ge Li
+conference: arxiv.org
+link: https://arxiv.org/abs/1706.07251
+---
 
 #### Problem Statement
 The aim of the paper is to perform Action Detection Task, i.e. whether an action occurs somewhere in a video, and also when it occurs. In this paper, we propose a class-specific action detection model that learns to continuously adjust the current region to cover the groundtruth more precisely in a self-adapted way. This is achieved by applying a sequence of transformations to a temporal window that is initially placed in the video at random and finally finds and covers action region as large as possible. The sequence of transformation is decided by an agent that analyzes the content of the current attended region and select the next best action according to a learned policy, which is trained via reinforcement learning based on Deep Q-Learning algorithm. The results are computed on THUMOS'14 dataset.
