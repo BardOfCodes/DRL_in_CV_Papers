@@ -23,12 +23,12 @@ The goal is to understand this penetration of RL in many of the application of C
 	1). Krull, Alexander, et al. "PoseAgent: Budget-Constrained 6D Object Pose Estimation via Reinforcement Learning." arXiv preprint arXiv:1612.03779 (2016).
 	2). Kaba, Mustafa Devrim, Mustafa Gokhan Uzunbas, and Ser Nam Lim. "A Reinforcement Learning Approach to the View Planning Problem." arXiv preprint arXiv:1610.06204 (2016).
 
-### [D] Natural Language Problems: Dialog Generation
+### [E] Natural Language Problems: Dialog Generation
 	1). Jason D. Williams, Kavosh Asadi, Geoffrey Zweig. Hybrid Code Networks: practical and efficient end-to-end dialog control with supervised and reinforcement learning ACL 2017.
 	2). Bhuwan Dhingra, Lihong Li, Xiujun Li, Jianfeng Gao, Yun-Nung Chen, Faisal Ahmed, Li Deng. End-to-End Reinforcement Learning of Dialogue Agents for Information Access. arXiv:1609.00777. 
 	3). Jason D. Williams, Geoffrey Zweig. End-to-end LSTM-based dialog control optimized with supervised and reinforcement learning. arXiv:1606.01269.
 
-### [E] Natural Language Problems: Information Extraction
+### [F] Natural Language Problems: Information Extraction
 	1). Karthik Narasimhan, Adam Yala, Regina Barzilay. Improving Information Extraction by Acquiring External Evidence with Reinforcement Learning. EMNLP 2016. 
 	2). Karthik Narasimhan, Tejas Kulkarni and Regina Barzilay. Language Understanding for Text-based Games using Deep Reinforcement Learning. EMNLP2015. 
 	3). S.R.K. Branavan, H. Chen, L. Zettlemoyer and R. Barzilay. Reinforcement Learning for Mapping Instructions to Actions. ACL 2009.
