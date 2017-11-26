@@ -8,16 +8,16 @@ link: https://arxiv.org/abs/1511.06015
 ---
 
 #### Problem Statement
-The aim is to localize objects in scenes, a.k.a Object Detection. To do so, an active detection model is presented which is class-specific. A RL agent is trained such to deform a bounding box using simple transformation actions, with the goal of determining the most specific location of target objects following top-down reasoning. The agent's performance is evaluated on the Pascal VOC 2007 dataset. 
+The aim is to localize objects in scenes, a.k.a Object Detection. To do so, an active detection model is presented which is class-specific. A RL agent is trained such to deform a bounding box using simple transformation actions, with the goal of determining the most specific location of target objects following top-down reasoning. The agent's performance is evaluated on the Pascal VOC 2007 dataset.
 
 #### Proposed Model Outcome
-<center><img src="img/A1-1.png" alt="Overview" style=""></center>
+<center><img src="/image/A1-1.png" alt="Overview" style=""></center>
 
 #### RL Components
-The problem has been modeled as a Markov Decision Process. Formally, the MDP has a set of actions A, a set of states S, and a reward function R. 
+The problem has been modeled as a Markov Decision Process. Formally, the MDP has a set of actions A, a set of states S, and a reward function R.
 * Actions
 The set of actions A is composed of eight transformations that can be applied to the box and one action to terminate the search process. The set of actions are as follows:
-<center><img src="img/A1-2.png" alt="Actions" style=""></center>
+<center><img src="/image/A1-2.png" alt="Actions" style=""></center>
 
 * State Space
 The state representation is a tuple (o, h), where o is a feature vector of the observed region, and h is a vector with the history of taken actions.
