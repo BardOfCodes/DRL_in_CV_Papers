@@ -1,5 +1,7 @@
 ---
 id: A2
+type: paper
+post-link: Papers/PaperA2.md
 title: Hierarchical Object Detection with Deep Reinforcement Learning.
 category: Object Detection
 author: Bellver, Miriam, et al

@@ -1,5 +1,8 @@
 ---
 id: C1
+type: paper
+post-link: Papers/PaperC1.md
+layout: post
 title: Action-Decision Networks for Visual Tracking with Deep Reinforcement Learning.
 category: Visual Tracking
 author: Yoo, Sangdoo Yun1 Jongwon Choi1 Youngjoon, Kimin Yun, and Jin Young Choi
