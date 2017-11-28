@@ -1,7 +1,8 @@
 ---
 id: A1
 type: paper
-post-link: Papers/PaperA1.md
+post-link: Papers/PaperA1.html
+layout: post
 title: Active object localization with deep reinforcement learning.
 category: Object Detection
 author: Caicedo, Juan C., and Svetlana Lazebnik
