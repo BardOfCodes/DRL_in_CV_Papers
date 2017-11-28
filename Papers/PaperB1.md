@@ -1,7 +1,7 @@
 ---
 id: B1
 type: paper
-post-link: Papers/B1.html
+post-link: Papers/PaperB1.html
 layout: post
 title: A Self-Adaptive Proposal Model for Temporal Action Detection based on Reinforcement Learning.
 category: Action Detection
