@@ -1,9 +1,9 @@
-- name: Object Detection
-  link: /category/Object%20Detection
-- name: Action Detection
-  link: /category/Action%20Detection
-- name: Visual Tracking
-  link: /category/Visual%20Tracking
+- name: object detection
+  link: /category/object%20detection
+- name: action detection
+  link: /category/action%20detection
+- name: visual tracking
+  link: /category/visual%20tracking
 #- name: Pose-Estimation and View-Planning Problem
 #  link:
 #- name: Natural Language Problems Dialog Generation

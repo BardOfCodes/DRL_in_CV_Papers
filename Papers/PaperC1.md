@@ -4,7 +4,7 @@ type: paper
 post-link: Papers/PaperC1.html
 layout: post
 title: Action-Decision Networks for Visual Tracking with Deep Reinforcement Learning.
-category: Visual Tracking
+category: visual tracking
 author: Yoo, Sangdoo Yun1 Jongwon Choi1 Youngjoon, Kimin Yun, and Jin Young Choi
 publication: CVPR 2017
 link: https://www.researchgate.net/publication/319164402_Action-Decision_Networks_for_Visual_Tracking_with_Deep_Reinforcement_Learning
