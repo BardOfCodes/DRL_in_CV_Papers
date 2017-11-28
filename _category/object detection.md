@@ -1,4 +1,4 @@
 ---
-title: 📂 Object Detection
-category: Object Detection
+title: 📂 object detection
+category: object detection
 ---
