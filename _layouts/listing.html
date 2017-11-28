@@ -30,20 +30,30 @@ layout: default
   <h2 class="{{ item_type }}__heading {{ item_type }}--{{ page_type }}__heading">{{ page.title }}</h2>
 
   <ul class="{{ item_type }}__list {{ item_type }}--{{ page_type }}__list">
-    {% for item in pool %}
+    <h1 style="font-size:6.625rem;"><center>Papers</center></h1>
+    {% for item in site.pages %}
+    {% if item.type =='paper' %}
       <li class="{{ item_type }}__entry {{ item_type }}--{{ page_type }}__entry">
-        {% if item_type == 'posts' %}
-          <time class="posts__entry-date posts__entry-date--{{ page_type }}" datetime="{{ item.date | date_to_xmlschema }}">
+        {% if item_type != 'posts' %}
+          <!-- <time class="posts__entry-date posts__entry-date--{{ page_type }}" datetime="{{ item.date | date_to_xmlschema }}">
             {{ item.date | date: "%b %-d" }}
-          </time>
+          </time> -->
         {% elsif item_type == 'projects' %}
           <span class="projects__entry-role">{{ item.role }}</span>
         {% endif %}
-        <div class="{{ item_type }}__entry-title {{ item_type }}__entry-title--{{ page_type }}"><a href="{{ site.baseurl }}{{ item.url }}"{{ outbound_link_flag }}>{{ item.title }}</a>
-        {% if item.teaser %} <div class="{{ item_type }}__entry-teaser {{ item_type }}__entry-teaser--{{ page_type }}">{{ item.teaser }}</div> {% endif %}
+        <div class="{{ item_type }}__entry-title {{ item_type }}__entry-title--{{ page_type }}" style="font-size: 2rem;"><a href="{{ site.baseurl }}{{ item.post-link }}"{{ outbound_link_flag }}>{{ item.title }}</a>
+        {% if item.author %} <div class="{{ item_type }}__entry-teaser {{ item_type }}__entry-teaser--{{ page_type }}">{{ item.author }}</div> {% endif %}
+        {% if item.conference %} <div class="{{ item_type }}__entry-teaser {{ item_type }}__entry-teaser--{{ page_type }}">{{ item.conference }}</div> {% endif %}
         </div>
-        {% if item.category %} <div class="{{ item_type }}__entry-category {{ item_type }}__entry-category--{{ page_type }}">{{ item.category }}</div> {% endif %}
+        {% if item.category %} 
+        <!--
+        <div class="{{ item_type }}__entry-category {{ item_type }}__entry-category--{{ page_type }}">
+          <a href="{{ item.tute_link }}"{{ outbound_link_flag }}> {{ item.category }}</a>
+        </div> 
+        -->
+        {% endif %}
       </li>
+    {% endif %}
     {% endfor %}
   </ul>
 </main>

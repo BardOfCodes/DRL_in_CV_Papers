@@ -8,19 +8,19 @@ description: >           # appears in an HTML <meta> tag, as well as feed.xml
   Hello 911 emergency, there's a handsome guy in my house!
   Oh wait a second, cancel that. It's only me.
 slogan: Showtime!        # appears in the header, alongside the title
-avatar: /i/avatar.png    # appears as portrait in the header
-banner: /i/mountains.svg # appears as background in the header
+avatar: /i/avatar_3.png    # appears as portrait in the header
+banner: /DRL_in_CV_Papers/i/mountains.svg # appears as background in the header
 url: http://jekyllrb.com # used by plugins to generate feed.xml and sitemap.xml
-baseurl: ''              # prepended to all absolute filepaths
+baseurl: '/DRL_in_CV_Papers/'              # prepended to all absolute filepaths
 repo: https://github.com//rlue.github.io # appears in footer
 
 # Objects listed here will appear in the main nav menu.
 # Exceeding four items may cause problems on the desktop (>900px wide) layout.
 nav_menu:
-  - name: Posts
+  - name: Papers
     url: /
     icon: /i/icons.svg#posts # icons should be 24x24 px.
-  - name: Projects
+  - name: Course
     url: /projects
     icon: /i/icons.svg#portfolio
   - name: GitHub
@@ -80,7 +80,7 @@ defaults:
 sass:
   sass_dir: _assets/css
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
