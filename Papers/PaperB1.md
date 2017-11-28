@@ -1,5 +1,7 @@
 ---
 id: B1
+type: paper
+post-link: Papers/B1.md
 title: A Self-Adaptive Proposal Model for Temporal Action Detection based on Reinforcement Learning.
 category: Action Detection
 author: Jingjia Huang, Nannan Li, Tao Zhang, Ge Li

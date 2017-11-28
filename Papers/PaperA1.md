@@ -1,5 +1,7 @@
 ---
 id: A1
+type: paper
+post-link: Papers/PaperA1.md
 title: Active object localization with deep reinforcement learning.
 category: Object Detection
 author: Caicedo, Juan C., and Svetlana Lazebnik
@@ -36,7 +38,7 @@ They use a Q-network that takes as input the state representation discussed.
 <center><img src="img/A1-5.png" alt="Model" style=""></center>
 <center><img src="img/A1-6.png" alt="Model" style=""></center>
 
-#### Quantitative Results
+#### Quntitative Results
 Comparison with other SOTA methods.
 <center><img src="img/A1-7.png" alt="Model" style=""></center>
 
