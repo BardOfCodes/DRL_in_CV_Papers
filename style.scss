@@ -642,7 +642,9 @@
   }
 
 }
-
+.post__body img{
+  width:100%;
+}
 .post__body {
   > p:last-of-type {
     &:after { // tombstone
