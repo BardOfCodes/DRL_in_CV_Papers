@@ -4,7 +4,7 @@ type: paper
 post-link: Papers/PaperA1.html
 layout: post
 title: Active object localization with deep reinforcement learning.
-category: Object Detection
+category: object detection
 author: Caicedo, Juan C., and Svetlana Lazebnik
 conference: ICCV 2015
 link: https://arxiv.org/abs/1511.06015
