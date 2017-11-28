@@ -1,7 +1,7 @@
 ---
 id: C1
 type: paper
-post-link: Papers/PaperC1.md
+post-link: Papers/PaperC1.html
 layout: post
 title: Action-Decision Networks for Visual Tracking with Deep Reinforcement Learning.
 category: Visual Tracking
