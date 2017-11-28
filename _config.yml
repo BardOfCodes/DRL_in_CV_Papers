@@ -21,6 +21,7 @@ nav_menu:
     icon: /i/icons.svg#posts # icons should be 24x24 px.
   - name: Course
     url: https://bardofcodes.github.io/DRL_in_CV/
+    outbound: true      # this key sets a link to open in a new window.
     icon: /i/icons.svg#portfolio
   - name: GitHub
     url: https://github.com/BardOfCodes/DRL_in_CV_Papers
