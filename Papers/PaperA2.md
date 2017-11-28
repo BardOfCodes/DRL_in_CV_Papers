@@ -6,7 +6,7 @@ layout: post
 title: Hierarchical Object Detection with Deep Reinforcement Learning.
 category: Object Detection
 author: Bellver, Miriam, et al
-conference: NIPS 2016
+publication: NIPS 2016
 link: https://arxiv.org/abs/1611.03718
 ---
 

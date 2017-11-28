@@ -30,12 +30,9 @@ layout: default
   <h2 class="{{ item_type }}__heading {{ item_type }}--{{ page_type }}__heading">{{ page.title }}</h2>
  
   <ul class="{{ item_type }}__list {{ item_type }}--{{ page_type }}__list">
-    <h1 style="font-size:5.625rem;"><center>Papers</center></h1>
-    {% for cat in site.data.category %}
-        <h2><a href="{{ site.baseurl }}{{ cat.link }}" style="color: #4e3107; border-bottom:none;"{{ outbound_link_flag }}>{{ cat.name }}</a></h2>
-        
+         
         {% for item in site.pages %}
-        {% if item.type =='paper' and item.category==cat.name %} 
+        {% if item.type =='paper' and item.category==page.category %}
           <li class="{{ item_type }}__entry {{ item_type }}--{{ page_type }}__entry">
             {% if item_type != 'posts' %} 
               <!-- <time class="posts__entry-date posts__entry-date--{{ page_type }}" datetime="{{ item.date | date_to_xmlschema }}">
@@ -58,7 +55,6 @@ layout: default
           </li>
         {% endif %}
         {% endfor %}
-    {% endfor %}
   </ul>
 </main>
 
