@@ -1,4 +1,4 @@
 ---
-title: 📂 action detection
+title: 📂 Action Detection
 category: action detection
 ---

@@ -1,4 +1,4 @@
 ---
-title: 📂 visual tracking
+title: 📂 Visual Tracking
 category: visual tracking
 ---
